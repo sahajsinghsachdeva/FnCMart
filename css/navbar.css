@@ -4,7 +4,7 @@
 .nav {
     z-index: 99999999;
     width: 100%;
-    height: 50px;
+    height: 70px;
     line-height: 55px;
     text-align: center;
     background-color: #fdb721;
@@ -30,6 +30,7 @@
 .nav div.main_list {
     height: 50px;
     float: right !important;
+    margin-top: 7px;
 }
 
 .nav div.main_list ul {
