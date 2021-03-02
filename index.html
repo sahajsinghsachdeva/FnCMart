@@ -1,4 +1,5 @@
 <html>
+
 <head>
     
 <script src="./js/jquery-3.5.1.min.js"></script>
@@ -9,36 +10,72 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
     integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-<link rel="stylesheet" href="./css/testimonials.css">
-<!-- Here starts the scripts section to call all components -->
+    <link rel="stylesheet" href="./css/testimonials.css">
+    <!-- Here starts the scripts section to call all components -->
 
-<!--calling navbar start-->
-<script>
-    $(function () {
-        $('#NavigationBar').load("./components/navbar.html");
-    });
-</script>
-<!--calling navbar end-->
-<!--calling testimoniasl-->
-<script>
-    $(function(){
-        $("#testimonials").load("./components/testimonials.html");
-    });
-</script>
+
+    <link rel="stylesheet" href="./css/loader.css">
+    <script src="./js/loader.js"></script>
+
+    <!--calling loader start-->
+    <script>
+        $(function () {
+            $('#Loader').load("./components/loader.html");
+        });
+    </script>
+    <!--calling loader end-->
+
+    <!--calling navbar start-->
+    <script>
+        $(function () {
+            $('#NavigationBar').load("./components/navbar.html");
+        });
+    </script>
+    <!--calling navbar end-->
+    <!--calling carousel start-->
+    <script>
+        $(function () {
+            $('#Carousel').load("./components/carousel.html");
+        });
+    </script>
+    <!--calling carousel end-->
+
+    <!--calling testimoniasl-->
+    <script>
+        $(function () {
+            $("#testimonials").load("./components/testimonials.html");
+        });
+    </script>
+
 
 <body>
+    <!--loader section start-->
+    <!-- <div id="Loader">
+
+    </div> -->
+    <!--loader section end-->
+    <!-- loader tag main -->
+    <!-- <div class="main"> -->
     <!--navbar start-->
     <div id="NavigationBar">
 
     </div>
     <!--navbar end-->
+    <!--carousel section start-->
+    <div id="Carousel">
 
+    </div>
+    <!--carousel section end-->
 
     <!--testimonials section start-->
     <div id="testimonials">
 
     </div>
     <!--testimonials section end-->
+
+    <!-- </div> -->
+    <!-- loader tag main end -->
 </body>
 </head>
+
 </html>
