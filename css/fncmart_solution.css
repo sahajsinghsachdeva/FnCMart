@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&display=swap');
+.solution_heading{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+}
+.solution_heading h1{
+    font-size: 4rem !important;
+}
+
+.solution_Keys{
+    margin-top: 50px;
+    font-family: 'Lora', serif;
+
+}
+
+.card-title{
+    text-align: center;
+    font-weight: 600;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card{
+    border-color: #027cd6 !important;
+    border-width: 1px !important;
+}
+
+.card-img-top{
+    height: 250px;
+    width: 250px;
+}
