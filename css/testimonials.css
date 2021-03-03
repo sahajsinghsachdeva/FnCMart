@@ -56,6 +56,24 @@
     margin-right: 60px
 }
 
+
+.carousel-indicators li {
+    display: inline-block;
+    width:15px;
+    height:15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #b8f374;    
+}
+.carousel-indicators .active {
+    width:15px;
+    height:15px;
+    margin: 10px;
+    background-color: #94E436;
+}
 @media screen and (max-width: 600px) {
     .card-main {
         padding: 50px 10px
@@ -79,8 +97,8 @@
     }
 
     .content {
-        margin-left: 120px;
-        margin-right: 50px
+        margin-left: 100px;
+        margin-right: 20px
     }
 
     .close-quotes {
