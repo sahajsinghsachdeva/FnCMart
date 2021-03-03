@@ -1,0 +1,16 @@
+.row_update {
+    text-align: center;
+    /* margin: 50px auto; */
+    width: 400px;
+    height: 450px;
+    border: 2px solid #027cd6;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+    margin: 30px auto;
+    padding: 15px;
+    overflow: hidden;
+}
+@media (max-width: 425px) and (min-width:324px) {
+    .row_update {
+        margin: 5%;
+    }
+}

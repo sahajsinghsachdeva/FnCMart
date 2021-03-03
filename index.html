@@ -11,6 +11,7 @@
     integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
 <link rel="stylesheet" href="./css/testimonials.css">
 <link rel="stylesheet" href="./css/loader.css">
+<link rel="stylesheet" href="./css/media-section.css">
 
 
 
@@ -52,6 +53,14 @@
             $("#testimonials").load("./components/testimonials.html");
         });
     </script>
+
+      <!--calling carousel start-->
+      <script>
+        $(function () {
+            $('#Media').load("./components/media-section.html");
+        });
+    </script>
+    <!--calling carousel end-->
 </head>
 
 
@@ -85,6 +94,12 @@
 
     </div>
     <!--testimonials section end-->
+
+     <!--media section start-->
+     <div id="Media">
+
+    </div>
+    <!--media section end-->
 </div>
     <!-- </div> -->
     <!-- loader tag main end -->
