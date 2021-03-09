@@ -24,9 +24,8 @@
     text-align: justify;
 }
 
-.card{
-    border-color: #027cd6 !important;
-    border-width: 1px !important;
+.card-deck .card{
+    background-color: #f2fde4 !important;
 }
 
 .card-img-top{

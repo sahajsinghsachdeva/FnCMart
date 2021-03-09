@@ -11,4 +11,35 @@ body{
     height:500px;
     background-size:cover;
     background-position: center center;
-    }
+}
+
+/* get started section */
+
+.get-started {
+    background-color: #94e436;
+    padding: 4rem 2rem;
+    color: white;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    /* margin: 4rem 2rem; */
+}
+
+button {
+    padding: 0.5rem 1rem;
+    /* box-shadow: 0 10px 3px -5px #666; */
+    color: #94e436;
+    background-color: white;
+    border: white;
+}
+
+button:active {
+    border: white;
+}
+
+.button-wrapper:hover button {
+    transform: translatey(-5px);
+    /* box-shadow: 0 30px 10px -10px #666; */
+}
