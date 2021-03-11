@@ -22,3 +22,13 @@
   font-weight: bold;
   color: red;
 }
+/* FOR MAKING CAROUSEL HEIGHT FIXED*/
+.carousel-inner .carousel-item{
+  height:80vh;
+  object-fit: contain;
+  background-size:cover;
+  background-position: center center;
+}
+
+.carousel-inner > .carousel-item > img {
+  height:80vh;  }

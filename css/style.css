@@ -6,12 +6,6 @@ body{
     background-color: #f2fde4 !important;
 }
 
-/* FOR MAKING CAROUSEL HEIGHT FIXED*/
-.carousel-inner .carousel-item{
-    height:500px;
-    background-size:cover;
-    background-position: center center;
-}
 
 /* get started section */
 
