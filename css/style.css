@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,31 +12,47 @@ body{
 
 /* get started section */
 
-.get-started {
-    background-color: #94e436;
-    padding: 4rem 2rem;
-    color: white;
+#element-with-background-image {
+        padding: 10rem 2rem;
+    min-height: 50vh;
+    vertical-align: middle;
+    color:beige;
+    background-image:
+        linear-gradient(rgba(2, 126, 214, 0.6), rgba(253, 183, 33, 0.6)), 
+        url('../img/Contactus.jpg');
+        font-family: 'RocknRoll One', sans-serif;}
+
+#element-with-background-image h1{
+    font-size: 4rem !important;
+
 }
 
+
 .button-wrapper {
-    display: flex;
-    justify-content: center;
+    white-space: nowrap !important;
+
+    text-align: center;
     /* margin: 4rem 2rem; */
 }
 
 button {
     padding: 0.5rem 1rem;
     /* box-shadow: 0 10px 3px -5px #666; */
-    color: #94e436;
-    background-color: white;
-    border: white;
+    
+    background-color: transparent;
+    border:2px solid beige;
+    
 }
 
-button:active {
+.button-wrapper:active button{
     border: white;
+    color: black;
+
 }
 
 .button-wrapper:hover button {
+    color: black;
     transform: translatey(-5px);
+    
     /* box-shadow: 0 30px 10px -10px #666; */
 }
