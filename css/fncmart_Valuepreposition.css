@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&display=swap');
-.VP_heading{
+.row .VP_heading{
     margin-top: 100px;
     text-align: center;
     font-family: 'Playfair Display SC', serif;
 }
 
-.VP_heading h1{
+.row .VP_heading h1{
     font-size: 4rem !important;
 }
 
-.VP_content{
+.row .VP_content{
     margin-top: 25px;
     font-family: 'Lora', serif;
 
 }
-.VP_content h2{
+.row .VP_content h2{
     font-size: 3rem !important;
     text-align: center;
 }
 
 
   
-  .ip-features-container {
+.row .ip-features-container {
     width: 960px;
     margin: 50px auto;
 
