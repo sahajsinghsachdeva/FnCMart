@@ -4,33 +4,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<!--Calling CSS-->
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="./css/Bootstrap4.5.2/bootstrap.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
-    integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/testimonials.css">
-<link rel="stylesheet" href="./css/loader.css">
-<link rel="stylesheet" href="./css/media-section.css">
+    <!--Calling CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/Bootstrap4.5.2/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/testimonials.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" href="./css/media-section.css">
+	<link rel="stylesheet" href="./css/carousel.css">
 
 
 
-<!--Calling JQuery-->
-<script src="./js/jquery-3.5.1.min.js"></script>
-<!--End of Calling JQuery-->
+    <!--Calling JQuery-->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!--End of Calling JQuery-->
 
 
-<!--Calling JS-->
-<script src="./js/Bootstrap4.5.2/bootstrap.min.js"></script>
+    <!--Calling JS-->
+    <script src="./js/Bootstrap4.5.2/bootstrap.min.js"></script>
 
-<!--End of Calling JS-->
-
-
-
+    <!--End of Calling JS-->
 
 
 
-<!-- Here starts the scripts section to call all components -->
+
+
+
+    <!-- Here starts the scripts section to call all components -->
 
     <!--calling navbar start-->
     <script>
@@ -39,6 +41,9 @@
         });
     </script>
     <!--calling navbar end-->
+
+
+
     <!--calling carousel start-->
     <script>
         $(function () {
@@ -47,20 +52,69 @@
     </script>
     <!--calling carousel end-->
 
+
+    <!--calling fncmart_solution start-->
+    <script>
+        $(function () {
+            $('#fncmart_solution').load("./components/fncmart_solution.html");
+        });
+    </script>
+    <!--calling fncmart_solution end-->
+
+    <!--calling fncmart_stakeholders start-->
+    <script>
+        $(function () {
+            $('#fncmart_stakeholders').load("./components/fncmart_stakeholders.html");
+        });
+    </script>
+    <!--calling fncmart_stakeholders end-->
+
+        <!--calling fncmart_Process start-->
+        <script>
+            $(function () {
+                $('#fncmart_Process').load("./components/fncmart_Process.html");
+            });
+        </script>
+        <!--calling fncmart_Process end-->
+
+
+        <!--calling fncmart_Valuepreposition start-->
+        <script>
+            $(function () {
+                $('#fncmart_Valuepreposition').load("./components/fncmart_Valuepreposition.html");
+            });
+        </script>
+        <!--calling fncmart_Valuepreposition end-->
+
     <!--calling testimoniasl-->
     <script>
         $(function () {
             $("#testimonials").load("./components/testimonials.html");
         });
     </script>
+    <!-- calling testimonials end-->
 
-      <!--calling carousel start-->
-      <script>
+    <!--calling Media start-->
+        <script>
+            $(function () {
+                $('#Media').load("./components/media-section.html");
+            });
+        </script>
+        <!--calling Media end-->
+    <!--calling get-started start-->
+    <script>
         $(function () {
-            $('#Media').load("./components/media-section.html");
+            $('#GetStarted').load("./components/get-started.html");
         });
     </script>
-    <!--calling carousel end-->
+    <!--calling get-started end-->
+    <!-- calling footer-->
+    <script>
+        $(function(){
+            $("#footer").load("./components/footer.html");
+        });
+    </script>
+    <!--calling footer end-->
 </head>
 
 
@@ -79,29 +133,64 @@
 
     <!--navbar end-->
 
-<!--Differentiating nav bar from other contents-->
-<div id="content">
-    <div id="content"></div>
+    <!--Differentiating nav bar from other contents-->
+    <div id="content">
+        <div id="content"></div>
 
-    <!--carousel section start-->
-    <div id="Carousel">
+        <!--carousel section start-->
+        <div id="Carousel">
+
+        </div>
+        <!--carousel section end-->
+
+
+        <!--fncmart_solution section start-->
+        <div id="fncmart_solution">
+
+        </div>
+        <!--fncmart_solution section end-->
+        <!--fncmart_stakeholders section start-->
+        <div id="fncmart_stakeholders">
+
+        </div>
+        <!--fncmart_stakeholders section end-->
+
+        <!--fncmart_Process section start-->
+        <div id="fncmart_Process">
+
+        </div>
+        <!--fncmart_Process section end-->
+
+        <!--fncmart_ValuePreposition section start-->
+        <div id="fncmart_Valuepreposition">
+
+        </div>
+        <!--fncmart_ValuePreposition section end-->
+
+
+        <!--testimonials section start hidden for a moment-->
+<!--         <div id="testimonials">
+
+        </div> -->
+        <!--testimonials section end-->
+		
+		<!--media section start-->
+        <div id="Media">
+
+        </div>
+        <!--media section end-->
+        <!--get-started section start-->
+        <div id="GetStarted">
+
+        </div>
+        <!--get-started section end-->
 
     </div>
-    <!--carousel section end-->
+    <!--footer-->
+    <div id="footer">
 
-    <!--testimonials section start-->
-    <div id="testimonials">
-
-    </div>
-    <!--testimonials section end-->
-
-     <!--media section start-->
-     <div id="Media">
-
-    </div>
-    <!--media section end-->
 </div>
-    <!-- </div> -->
+<!--footer end-->    <!-- </div> -->
     <!-- loader tag main end -->
 </body>
 

@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,900italic,900,700italic,700,400italic);
+.container-fluid section {
+    color: #000000;
+    padding: 10px 0;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/2451377.jpg");
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+
+.divider {
+    padding: 0;
+    margin: 0;
+}
+
+/* .container {
+    padding: 0;
+    margin: 0;
+} */
+
+.divider h1 {
+    margin: 48% 10% 0 10%;
+    text-align: center;
+    color: black;
+    font: italic small-caps bold 40px Georgia, serif;
+}
+
+.divider p {
+    color: black;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .divider h1 {
+        font-size: 20px;
+    }
+    .divider p {
+        font-size: 14px;
+    }
+}
+
+/* grt in touch */
+
+.contact-head {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.contact_box {
+    background-color: white;
+    display: flex;
+    margin: 100px auto 90px auto;
+    font-size: 14px;
+    font-family: 'sans-serif' !important;
+    max-width: 1170px;
+    flex-direction: row;
+}
+
+.contact_us_label {
+    background-color: white;
+    font-size: 18px;
+    font-family: 'sans-serif' !important;
+    max-width: 1170px;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.contact_left {
+    flex-basis: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.contact_right {
+    flex-basis: 60%;
+    padding: 20px 20px 20px 25px;
+    /* background-color: rgba(255, 111, 0, 0.6); */
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border-left: 2px solid black;
+}
+
+.input-row {
+    /* display: flex;
+    justify-content: space-between; */
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+/* .input_group{
+    padding-left: 10px;
+} */
+
+input {
+    width: 100%;
+    border: none;
+    /* border-bottom: 1px solid #ccc; */
+    background-color: #F8F8F8;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.input-row label {
+    margin-bottom: 3px;
+}
+
+#subject {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    /* border-bottom: 1px solid #ccc; */
+    background-color: #F8F8F8;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+}
+
+.btn {
+    background: #94e436;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.contact_left h3 {
+    color: #94e436;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 30px;
+    color: #94e436;
+    border-top: 10px solid #94e436;
+}
+
+.relief {
+    /* background-color: #94e436; */
+    color: #00aaff;
+    font: italic bold 30px Georgia, Serif;
+    text-shadow: -4px 3px 0 #b8f374, -14px 7px 0 #f2fde4;
+}
+
+.contact_right h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact_right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact_right ul {
+    padding-left: 30px;
+}
+
+.contact_right ul li {
+    padding: 10px;
+}
+
+.contact_right .fas {
+    color: #fff;
+    background-color: #94e436 !important;
+    margin-right: 10px;
+}
+
+.cx {
+    display: inline-flex;
+    white-space: nowrap;
+}
+
+/* .fa-2x {
+    color: #94e436;
+    margin: 10px;
+    text-align: center;
+} */
+
+/* media query for  */
+
+@media(max-width:425px) {
+    .contact_box {
+        flex-direction: column;
+    }
+}
+
+/* .contact_us_2_card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-color: rgba(255, 111, 0, 0);
+    background-clip: border-box;
+    border: 1px solid rgb(255, 255, 255) !important;
+    border-radius: .25rem;
+} */
+
+/* 'Poppins', sans-serif;'Poppins', sans-serif; */

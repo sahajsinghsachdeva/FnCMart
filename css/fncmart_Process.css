@@ -1,34 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&display=swap');
-.solution_heading{
-    margin-top: 50px;
+.Process_heading{
+    margin-top: 100px;
     text-align: center;
     font-family: 'Playfair Display SC', serif;
 }
-.solution_heading h1{
+
+.Process_heading h1{
     font-size: 4rem !important;
 }
 
-.solution_Keys{
-    margin-top: 50px;
+.Process_content{
+    margin-top: 25px;
     font-family: 'Lora', serif;
 
 }
-
-.card-title{
+.Process_content h2{
+    font-size: 3rem !important;
     text-align: center;
-    font-weight: 600;
-}
-
-.card-text{
-    text-align: justify;
-}
-
-.card-deck .card{
-    background-color: #f2fde4 !important;
-}
-
-.card-img-top{
-    height: 250px !important;
-    width: 250px !important;
 }

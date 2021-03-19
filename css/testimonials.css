@@ -1,15 +1,15 @@
 
 .card-main {
-    padding: 50px;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    box-shadow: 0px 4px 8px 0px #94E436;
+    padding: 50px !important;
+    border-radius: 10px !important;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    box-shadow: 0px 4px 8px 0px #94E436 !important;
 }
 
 .card-0 {
     color: #000;
-    background-color: #b8f374;
+    background-color: #b8f374 !important;
     position: relative;
     margin-left: 70px;
     border-radius: 10px;
@@ -24,14 +24,14 @@
 }
 
 .profile {
-    color: #000;
-    background-color: #fff;
-    position: absolute;
-    left: -70px;
-    top: 17%;
-    border-radius: 8px;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px
+    color: #000 !important;
+    background-color: #fff !important;
+    position: absolute !important;
+    left: -70px !important;
+    top: 17% !important;
+    border-radius: 8px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
 }
 
 .profile-pic {
@@ -56,6 +56,24 @@
     margin-right: 60px
 }
 
+
+.carousel-indicators li {
+    display: inline-block;
+    width:15px !important;
+    height:15px !important;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+       
+}
+.carousel-indicators .active {
+    width:15px !important;
+    height:15px !important;
+    border-radius: 50%;
+    background-color: #94E436;
+}
 @media screen and (max-width: 600px) {
     .card-main {
         padding: 50px 10px
@@ -79,8 +97,8 @@
     }
 
     .content {
-        margin-left: 120px;
-        margin-right: 50px
+        margin-left: 100px;
+        margin-right: 20px
     }
 
     .close-quotes {
