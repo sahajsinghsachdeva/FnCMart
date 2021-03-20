@@ -25,6 +25,8 @@
   .ip-features-container {
     width: 960px;
     margin: 50px auto;
+    min-height: 65vh;
+    max-height: 65vh;
 
   }
   
