@@ -9,7 +9,7 @@
     text-align: center;
     background-color: #fdb721;
     font-family: 'Times New Roman', Times, serif;
-    position: initial;
+    position: fixed;
     overflow: hidden;
 }
 

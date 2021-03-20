@@ -30,6 +30,9 @@ section::before{
 
 }
 
+.contacticon{
+    color: black !important;
+}
 section .container{
     position: relative;
     min-width: 1100px;
