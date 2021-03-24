@@ -51,31 +51,35 @@
         </div>
         <div class="contactForm">
             <h2>Send a Message</h2>
-            <div class="formBox">
-                <div class="inputBox w50">
-                    <input type="text" name="" required>
-                    <span>First Name</span>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted){window.location='thankyou.html';}"></iframe>
+            <form action='https://docs.google.com/forms/d/e/1FAIpQLSfGRYmjZ464GRdql0Hjq1sObPCVJGmuw4PXo-_sTKbPHGsqqw/formResponse' method="post" target="hidden_iframe" onsubmit="submitted= true;">
+                <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="entry.1053734624" required>
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="entry.864304104" required>
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="entry.381282907" required>
+                        <span>Email Address</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" name="entry.1930369362" required>
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea name="entry.1232810340" required></textarea>
+                        <span>Write your message here...</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <input type="submit" value="Send">
+                    </div>
                 </div>
-                <div class="inputBox w50">
-                    <input type="text" name="" required>
-                    <span>Last Name</span>
-                </div>
-                <div class="inputBox w50">
-                    <input type="text" name="" required>
-                    <span>Email Address</span>
-                </div>
-                <div class="inputBox w50">
-                    <input type="text" name="" required>
-                    <span>Mobile Number</span>
-                </div>
-                <div class="inputBox w100">
-                    <textarea name="" required></textarea>
-                    <span>Write your message here...</span>
-                </div>
-                <div class="inputBox w100">
-                    <input type="submit" value="Send">
-                </div>
-            </div>
+            </form>
         </div>
     </div>
 </section>
+

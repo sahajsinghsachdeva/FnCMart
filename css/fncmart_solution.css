@@ -15,6 +15,10 @@
 
 }
 
+.card-body{
+    min-height: 350px !important;
+    max-height: 350px;
+}
 .card-title{
     text-align: center;
     font-weight: 600;
@@ -26,9 +30,21 @@
 
 .card-deck .card{
     background-color: #f2fde4 !important;
+    margin-top: 10px !important;
 }
 
-.card-img-top{
-    height: 250px !important;
-    width: 250px !important;
+.card-img-top-1{
+    height: 200px !important;
+    width: 200px !important;
+}
+
+@media (min-width:991px) and (max-width:1200px){
+    .card-img-top-1{
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .card-body{
+        min-height: 440px !important;
+        max-height: 440px;
+    }
 }

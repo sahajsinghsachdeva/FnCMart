@@ -41,6 +41,7 @@
 }
 .sh .card-body{
     padding: 0 !important;
+    min-height: fit-content !important;
 }
 .card-img-top{
     text-align: center !important;

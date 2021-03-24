@@ -14,34 +14,21 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #027cd6;
-
-    
-}
-section::before{
-     content:'';
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 50%;
-     height: 100%;
-     background-color: #00aaff;
-
-
+    background: #f2fde4;
+ 
 }
 
-.contacticon{
-    color: black !important;
-}
-section .container{
+ section .container{
     position: relative;
     min-width: 1100px;
     min-height: 550px;
-    display: flex;
     z-index: 1000;
+    display: flex;
+    z-index: 10000;
+    background-color: #f2fde4;
 }
 
-section .container .contactinfo
+ .container .contactinfo
 {
     position: absolute;
     top: 40px;
@@ -61,6 +48,9 @@ section .container .contactinfo h2{
     font-size: 24px;
     font-weight: 500;
 
+}
+.contacticon{
+    color: black !important;
 }
  section .container .contactinfo ul.info{
     position: relative;
@@ -118,7 +108,6 @@ section .container .contactinfo .sci li:hover a i{
 section .container .contactForm{
     position: absolute;
     padding: 70px 50px;
-    background: #fff;
     margin-left: 150px;
     padding-left:250px;
     width: calc(100% - 150px);
@@ -201,70 +190,70 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover{
 }
 @media(max-width : 1200px){
     .container{
-        width: 90%;
-        min-width: auto;
-        margin: 20px;
-        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+        width: 90% !important;
+        min-width: auto !important;
+        margin: 20px !important;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2) !important;
     }
     .container .contactinfo{
-        top: 0;
-        height: 550px;
-        position: relative;
-        box-shadow: none;
+        top: 0 !important;
+        height: 550px !important;
+        position: relative !important;
+        box-shadow: none !important;
     }
     .container .contactForm{
-        position: relative;
-        width: calc(100% - 350px);
-        padding-left: 0;
-        margin-left: 0;
-        padding: 40px;
-        height: 550px;
-        box-shadow: none;
+        position: relative !important;
+        width: calc(100% - 350px) !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        padding: 40px !important;
+        height: 550px !important;
+        box-shadow: none !important;
     }
 }
 @media(max-width : 991px){
     .section{
-        background: #00aaff;
+        background: #f2fde4 !important;
 
     }
-    .section::before{
-        display: none;
-    }
+    
     .container{
-        display: flex;
-        flex-direction: column-reverse;
+        display: flex !important;
+        flex-direction: column-reverse !important;
     }
     .container .contactForm{
-        width: 100%;
-        height: auto;
+        margin-top:20px !important;
+        width: 100% !important;
+        height: auto !important;
 
     }
     .container .contactinfo{
-        width: 100%;
-        height: auto;
-        flex-direction: row;
+        width: 100% !important;
+        height: auto !important;
+        flex-direction: row !important;
     }
     .container .contactinfo ul.sci{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position: relative !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
     }   
 }
 @media(max-width : 600px){
     .container .contactForm{
-    padding:25px;
+    margin-top: 75px !important;
+    padding:25px !important;
     }
     .container .contactinfo{
-    padding:25px;
-    flex-direction: column;
-    align-items: flex-start;
+    padding:25px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
     }
     .container .contactinfo ul.sci{
-    margin-top: 40px;    
+    margin-top: 40px !important;    
     }
     .container .contactForm .formBox .inputBox.w50{
-    width: 100%;
+    width: 100% !important;
     }
 }
 
