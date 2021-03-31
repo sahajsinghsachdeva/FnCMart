@@ -1,23 +1,34 @@
-.core_values{
-    background-color: white;
-}
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&display=swap');
+
+
 .core_values .container-fluid{
     width: 70%;
     margin-top: 50px;
     margin-bottom:50px;
 }
+.values_heading{
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+}
 .fa-check-circle{
-    color: black;
     vertical-align: middle;
 }
 .values{
     padding: 10px 30px;
     display: inline-block;
     font-size: 18px;
+    font-family: 'Lora', serif;
 }
 
 .value1{
     margin-top: 15px;
+}
+.odd{
+    color:#fdb721;
+}
+.even{
+    color:#027cd6;
 }
 .bold{
     font-weight: 700;
