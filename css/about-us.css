@@ -1,27 +1,58 @@
-.page-container{
-    background-position: top center;
-    background-image: url(../img/sample.jpg)!important;
+.page-container {
+    /* background-position: top center; */
+    background-image: url(../img/nature-field-sun-agriculture.jpg)!important;
     background: no-repeat;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
+    padding-top: 183px;
+    padding-bottom: 90px;
+    background: #060326;
+    background-image: url(http://www.agriledger.io/wp-content/themes/quark-progression/images/page-title.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.page-container h1{
-    padding: 5vw;
-    /* font-size: 18px; */
-    color: #ffffff!important;
-    line-height: 150%;
+
+.width-container-pro {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* .page-title-pro h1.entry-title-pro {
+    color: #ffffff;
+    
+    font-size: 60px;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+} */
+
+.width-container-pro h1 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.1;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 60px;
     text-align: center;
-    font-weight: 400;
+    letter-spacing: 18px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 14px rgb(0 0 0 / 50%);
 }
-.row-part1{
+
+.row-part1 {
     padding: 30px;
     color: #a7a7a7!important;
-    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
     font-size: 50px;
     line-height: 1.2em;
     text-align: left;
 }
-.row-part1 em{
+
+.row-part1 em {
     font-style: italic;
     color: #000 !important;
 }
@@ -30,27 +61,30 @@
     font-weight: 700;
     font-weight: bold;
 }
-.content{
-    font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+
+.content {
+    font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
     color: #a7a7a7!important;
     margin-top: 3.4%!important;
     max-width: 95%;
     text-align: left;
     padding: 20px;
-
 }
-.content h2{
+
+.content h2 {
     color: #000;
 }
-.row-part2{
+
+.row-part2 {
     padding: 30px;
     color: #a7a7a7!important;
-    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
     font-size: 20px;
     line-height: 1.2em;
     text-align: left;
 }
-.row-part2 em{
+
+.row-part2 em {
     font-style: italic;
     color: #000 !important;
 }
@@ -59,10 +93,31 @@
     font-weight: 300;
     font-weight: bold;
 }
-#he{
-    padding:30px;
-    
+
+#he {
+    padding: 30px;
 }
+
 .mycontent-left {
     border-right: 4px solid black;
-  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .width-container-pro h1 {
+        font-size: 40px;
+        letter-spacing: 15px;
+    }
+    .width-container-pro {
+        width: 92%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .width-container-pro h1  {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .width-container-pro {
+        width: 92%;
+    }
+}

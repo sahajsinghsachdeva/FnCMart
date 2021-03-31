@@ -1,0 +1,24 @@
+.core_values{
+    background-color: white;
+}
+.core_values .container-fluid{
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+.fa-check-circle{
+    color: black;
+    vertical-align: middle;
+}
+.values{
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.value1{
+    margin-top: 15px;
+}
+.bold{
+    font-weight: 700;
+}
