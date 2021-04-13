@@ -24,8 +24,8 @@
     font-weight: 600;
 }
 
-.card-text{
-    text-align: justify;
+.solution_Keys .card-text {
+    text-align: center !important;
 }
 
 .card-deck .card{
