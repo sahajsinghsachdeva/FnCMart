@@ -32,10 +32,9 @@ z-index:1;
 margin-bottom:65px;
 }
 
-.sec-title .title{
+.sec-title .title h1{
 position:relative;
 font-size:36px;
-color:#bd0000;
 font-weight:700;
 margin-bottom:12px;
 text-transform:capitalize;
